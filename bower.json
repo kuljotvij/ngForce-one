@@ -1,0 +1,28 @@
+{
+  "name": "ngForce",
+  "version": "3.0.0",
+  "homepage": "https://github.com/noeticpenguin/ngForce",
+  "authors": [
+    "Kevin Poorman <kjp@brightleafsoftware.com>"
+  ],
+  "description": "Force.com Angular.js framework.",
+  "main": [
+    "./lib/safeApply.js",
+    "./lib/lo-dash.compat.js",
+    "./lib/restangular.js",
+    "./jsSrc/ngForce.js",
+    "./jsSrc/ngForce-visualForceRemoting.js"
+  ],
+  "keywords": [
+    "salesforce",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
